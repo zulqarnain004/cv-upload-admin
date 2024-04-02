@@ -9,7 +9,7 @@ function Login() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const LoginHandler = () => {
-    if (email === "azsidhu@gmail.com" && password === "123456") {
+    if (email === "azsidhu@gmail.com" && password === "5566A@as") {
       setIsLoggedIn(true);
       navigate("/all-resumes"); // Redirect to /cv page
     } else {
@@ -27,6 +27,7 @@ function Login() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         ></Input>
+
         <Input
           type="password"
           name="password"
